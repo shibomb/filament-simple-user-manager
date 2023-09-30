@@ -103,8 +103,8 @@ class FilamentSimpleUserManagerServiceProvider extends PackageServiceProvider
     {
         return [
             // AlpineComponent::make('filament-simple-user-manager', __DIR__ . '/../resources/dist/components/filament-simple-user-manager.js'),
-            Css::make('filament-simple-user-manager-styles', __DIR__ . '/../resources/dist/filament-simple-user-manager.css'),
-            Js::make('filament-simple-user-manager-scripts', __DIR__ . '/../resources/dist/filament-simple-user-manager.js'),
+            // Css::make('filament-simple-user-manager-styles', __DIR__ . '/../resources/dist/filament-simple-user-manager.css'),
+            // Js::make('filament-simple-user-manager-scripts', __DIR__ . '/../resources/dist/filament-simple-user-manager.js'),
         ];
     }
 
