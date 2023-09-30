@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "shibomb/filament-simple-user-manager",
+    "description": "This is my package filament-simple-user-manager",
     "keywords": [
-        ":vendor_name",
+        "shibomb",
         "laravel",
-        ":package_slug"
+        "filament-simple-user-manager"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/shibomb/filament-simple-user-manager",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/shibomb/filament-simple-user-manager/issues",
+        "source": "https://github.com/shibomb/filament-simple-user-manager"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "SHIBAHARA Hiroki",
+            "email": "shibomb@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0",
         "illuminate/contracts": "^10.0"
     },
@@ -42,13 +40,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Shibomb\\FilamentSimpleUserManager\\": "src/",
+            "Shibomb\\FilamentSimpleUserManager\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Shibomb\\FilamentSimpleUserManager\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -68,10 +66,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Shibomb\\FilamentSimpleUserManager\\FilamentSimpleUserManagerServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentSimpleUserManager": "Shibomb\\FilamentSimpleUserManager\\Facades\\FilamentSimpleUserManager"
             }
         }
     },

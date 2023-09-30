@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Shibomb\FilamentSimpleUserManager\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentSimpleUserManagerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-simple-user-manager';
 
     public $description = 'My command';
 
