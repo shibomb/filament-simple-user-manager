@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Shibomb\FilamentSimpleUserManager\Commands\FilamentSimpleUserManagerCommand;
+use Shibomb\FilamentSimpleUserManager\Testing\TestsFilamentSimpleUserManager;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Shibomb\FilamentSimpleUserManager\Commands\FilamentSimpleUserManagerCommand;
-use Shibomb\FilamentSimpleUserManager\Testing\TestsFilamentSimpleUserManager;
 
 class FilamentSimpleUserManagerServiceProvider extends PackageServiceProvider
 {
